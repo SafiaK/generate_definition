@@ -1,0 +1,31 @@
+You are a legal expert tasked with formulating a comprehensive definition of a legal term based on multiple case law scenarios and legislative text.
+
+**Task:**
+Formulate a precise and comprehensive definition of the term "{legislation_term}" (Legislation ID: {legislation_id}) that satisfies all the scenarios presented in the case law paragraphs below.
+
+**Legislative Context:**
+{section_text}
+
+**Case Law Scenarios:**
+The following paragraphs from various case laws discuss and interpret this term in different contexts:
+
+{case_law_paragraphs}
+
+**Related Case Terms:**
+The following related terms have been identified in the case law:
+{case_terms}
+
+**Instructions:**
+1. Analyze all the case law paragraphs provided above
+2. Identify the common themes, interpretations, and applications of the term across all scenarios
+3. Consider how the term is used in different contexts and what elements are consistently present
+4. Formulate a definition that:
+   - Accurately captures the meaning of the term as used in the legislation
+   - Satisfies all the scenarios presented in the case law paragraphs
+   - Is comprehensive enough to cover the various applications shown in the case law
+   - Is precise and legally sound
+5. Your definition should be clear, concise, and suitable for legal reference
+
+**Output:**
+Provide only the definition text itself, without any additional commentary, explanations, or formatting. The definition should be a single, well-structured paragraph or multiple paragraphs if necessary for clarity.
+
