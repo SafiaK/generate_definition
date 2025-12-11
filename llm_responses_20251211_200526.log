@@ -1,0 +1,38 @@
+2025-12-11 20:05:26,939 - INFO - Starting definition generation process...
+2025-12-11 20:05:26,939 - INFO - Prompt template loaded successfully
+2025-12-11 20:05:26,939 - INFO - Reading CSV file: final_dataser_of_key_phrases.csv
+2025-12-11 20:05:26,976 - INFO - Loaded 3008 rows from CSV
+2025-12-11 20:05:26,976 - INFO - Grouping by legislation_term and legislation_id...
+2025-12-11 20:05:26,982 - INFO - Found 1514 unique combinations of legislation_term and legislation_id
+2025-12-11 20:05:26,987 - INFO - 
+Processing group 1/1514
+2025-12-11 20:05:26,987 - INFO - Processing: 'treatment services' do not include treatment services provided to the donor, or to the donor and another person together (1990/37_None)
+2025-12-11 20:05:26,987 - INFO - Prompt length: 10995 characters
+2025-12-11 20:05:26,987 - INFO - Number of case law paragraphs: 2
+2025-12-11 20:05:33,123 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-12-11 20:05:33,132 - INFO - Definition received (length: 875 characters)
+2025-12-11 20:05:33,132 - INFO - Response preview: "Treatment services" do not include treatment services provided to the donor, or to the donor and another person together" means that for the purposes of section 31ZD, the definition of treatment serv...
+2025-12-11 20:05:33,133 - INFO - 
+================================================================================
+2025-12-11 20:05:33,133 - INFO - Legislation Term: 'treatment services' do not include treatment services provided to the donor, or to the donor and another person together
+2025-12-11 20:05:33,133 - INFO - Legislation ID: 1990/37_None
+2025-12-11 20:05:33,133 - INFO - 
+Prompt:
+You are a legal expert tasked with formulating a comprehensive definition of a legal term based on multiple case law scenarios and legislative text.
+
+**Task:**
+Formulate a precise and comprehensive definition of the term "'treatment services' do not include treatment services provided to the donor, or to the donor and another person together" (Legislation ID: 1990/37_None) that satisfies all the scenarios presented in the case law paragraphs below.
+
+**Legislative Context:**
+31ZD Provision to don...
+2025-12-11 20:05:33,133 - INFO - 
+Response:
+"Treatment services" do not include treatment services provided to the donor, or to the donor and another person together" means that for the purposes of section 31ZD, the definition of treatment services is restricted to exclude any fertility treatment or related medical services where the gamete or embryo donor is also a recipient of those same treatment services, either as the sole patient or as one of multiple patients receiving treatment together with another person. This exclusion applies whether the donor receives treatment individually or jointly with a partner, spouse, or other specified person, thereby ensuring that the donor's right to information about resulting children under section 31ZD only applies to scenarios where their donated genetic material is used in treatment services provided exclusively to third parties who are not the donor themselves.
+2025-12-11 20:05:33,133 - INFO - ================================================================================
+
+2025-12-11 20:05:33,643 - INFO - 
+Completed! Results saved to legislation_term_definitions.csv
+2025-12-11 20:05:33,644 - INFO - Total definitions generated: 1
+2025-12-11 20:05:33,644 - INFO - Log file: llm_responses_20251211_200526.log
+2025-12-11 20:05:33,645 - INFO - Successful definitions: 1
+2025-12-11 20:05:33,645 - INFO - Failed definitions: 0
